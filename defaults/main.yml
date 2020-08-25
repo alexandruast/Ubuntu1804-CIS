@@ -383,7 +383,7 @@ ubuntu1804cis_host_allow:
   - "192.168.0.0/255.255.0.0"
   - "0.0.0.0/0.0.0.0"
 
-ubuntu1804cis_firewall: firewalld
+ubuntu1804cis_firewall: ufw
 # ubuntu1804cis_firewall: iptables
 # ubuntu1804cis_firewall: ufw
 # ubuntu1804cis_firewall: nftables
